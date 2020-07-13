@@ -11,8 +11,8 @@ namespace primeornot
         static void Main(string[] args)
         {
                 int num, rem, sum = 0, temp;   
-                Console.WriteLine("\n >>>> To Find a Number is Palindrome or not <<<< ");
-                Console.Write("\n Enter a number: ");
+                Console.WriteLine(" To Find a Number is Palindrome or not <");
+                Console.Write("Enter a number ");
                 num = Convert.ToInt32(Console.ReadLine());
                 temp = num;
                 while (num > 0)
